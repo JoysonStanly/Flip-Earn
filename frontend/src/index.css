@@ -4,3 +4,16 @@
 * {
     font-family: 'Rethink Sans', sans-serif;
 }
+
+button {
+    @apply cursor-pointer;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Clerk Components */
+.cl-drawerRoot {
+    z-index: 100;
+}
